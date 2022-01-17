@@ -42,7 +42,29 @@
     "audioOnly": {
         "audioOnly": "Только звук"
     },
-    "calendarSync": {
+    "blankPage": {
+        "meetingEnded": "Встреча закончилась."
+    },
+    "breakoutRooms": {
+        "defaultName": "Комната отдыха #{{index}}",
+        "mainRoom": "Главная комната",
+        "actions": {
+            "add": "Добавить комнату отдыха",
+            "autoAssign": "Автоматически назначать комнаты обсуждения",
+            "close": "Закрыть",
+            "join": "Присоединиться",
+            "leaveBreakoutRoom": "Выйти из комнаты отдыха",
+            "more": "Больше",
+            "remove": "Удалить",
+            "sendToBreakoutRoom": "Отправить участника по адресу:"
+        },
+        "notifications": {
+            "joinedTitle": "Комнаты отдыха",
+            "joined": "Присоединение к \"{{name}}\" комната отдыха",
+            "joinedMainRoom": "Присоединение к основной комнате"
+        }
+    },
+	"calendarSync": {
         "addMeetingURL": "Добавить ссылку конференции",
         "confirmAddLink": "Вы хотите добавить ссылку QazMeet к этому календарному событию?",
         "error": {
@@ -72,8 +94,21 @@
             "titleWithPolls": "Введите имя для использования чата"
         },
         "noMessagesMessage": "В конференции пока нет никаких сообщений. Начните разговор!",
-        "privateNotice": "Личное сообщение пользователю {{recipient}}",
-        "title": "Чат",
+        "nickname": {
+            "popover": "Выберите псевдоним",
+            "title": "Введите псевдоним для использования чата",
+            "titleWithPolls": "Введите псевдоним, чтобы использовать чат и опросы"
+        },
+		"privateNotice": "Личное сообщение пользователю {{recipient}}",
+		"message": "Сообщение",
+        "messageAccessibleTitle": "{{user}} говорит:",
+        "messageAccessibleTitleMe": "сказал мне:",
+        "smileysPanel": "Панель эмодзи",
+        "tabs": {
+            "chat": "Чат",
+            "polls": "Опросы"
+        },
+		"title": "Чат",
         "titleWithPolls": "Чат",
         "you": "вы"
     },
@@ -533,7 +568,11 @@
     "me": "я",
     "notify": {
         "allowAction": "Разрешить",
-        "OldElectronAPPTitle": "Уязвимость в системе безопасности!",
+        "allowedUnmute": "Вы можете включить микрофон, включить камеру или поделиться своим экраном.",
+        "audioUnmuteBlockedTitle": "Включение микрофона заблокировано!",
+        "audioUnmuteBlockedDescription": "Операция включения микрофона была временно заблокирована из-за системных ограничений.",
+		"chatMessages": "Сообщения чата",
+		"OldElectronAPPTitle": "Уязвимость в системе безопасности!",
         "connectedOneMember": "{{name}} присоединился к конференции",
         "connectedThreePlusMembers": "{{name}} и {{count}} других пользователей присоединились к конференции",
         "connectedTwoMembers": "{{first}} и {{second}} присоединились к конференции",
@@ -584,18 +623,51 @@
             "blockEveryoneMicCamera": "Заблокировать у всех микрофон и камеру",
             "invite": "Пригласить",
             "askUnmute": "Попросить разрешение включить микрофон",
-            "mute": "Выключить звук",
+            "moreModerationActions": "Дополнительные параметры модерации",
+            "moreParticipantOptions": "Дополнительные параметры участников",
+			"mute": "Выключить звук",
             "muteAll": "Выключить звук у всех",
             "muteEveryoneElse": "Выключить микрофон у остальных",
             "stopEveryonesVideo": "Выключить у всех камеру",
             "stopVideo": "Остановить видео",
             "unblockEveryoneMicCamera": "Разблокировать у всех микрофон и камеру",
-            "videoModeration": "Разрешить видео"
-        }
+            "videoModeration": "Разрешить видео",
+			"moreModerationControls": "Дополнительные элементы управления модерацией"
+        },
+		"search": "Поиск участников"
     },
     "passwordDigitsOnly": "До {{number}} цифр",
     "passwordSetRemotely": "установлен другим участником",
-    "poweredby": "работает на",
+    "polls": {
+        "by": "От {{ name }}",
+        "create": {
+            "addOption": "Добавить вариант",
+            "answerPlaceholder": "Вариант {{index}}",
+            "create": "Создать опрос",
+            "cancel": "Отмена",
+            "pollOption" : "Вариант опроса {{index}}",
+            "pollQuestion" : "Тема опроса",
+            "questionPlaceholder": "Задайте вопрос",
+            "removeOption": "Удалить вариант",
+            "send": "Отправить"
+        },
+        "answer": {
+            "skip": "Пропустить",
+            "submit": "Подтвердить"
+        },
+        "results": {
+            "vote": "Голосовать",
+            "changeVote": "Изменить голос",
+            "empty": "На собрании еще нет опросов. Начать опрос здесь!",
+            "hideDetailedResults": "Скрыть детали",
+            "showDetailedResults": "Показать детали"
+        },
+        "notification": {
+            "title": "К этой встрече добавлен новый опрос",
+            "description": "Откройте вкладку опросов, чтобы проголосовать"
+        }
+    },
+	"poweredby": "работает на",
     "prejoin": {
         "audioAndVideoError": "Ошибка звука и видео:",
         "audioOnlyError": "Ошибка звука:",
