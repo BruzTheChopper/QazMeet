@@ -243,7 +243,7 @@ var interfaceConfig = {
     // DEFAULT_LOCAL_DISPLAY_NAME: 'me',
 
     // Please use defaultRemoteDisplayName from config.js
-    // DEFAULT_REMOTE_DISPLAY_NAME: 'Fellow Jitster',
+    // DEFAULT_REMOTE_DISPLAY_NAME: 'Пользователь',
 
     // Moved to config.js as `toolbarConfig.initialTimeout`.
     // INITIAL_TOOLBAR_TIMEOUT: 20000,
