@@ -108,7 +108,7 @@ var interfaceConfig = {
      *
      * @type {boolean}
      */
-    MOBILE_APP_PROMO: true,
+    MOBILE_APP_PROMO: false,
 
     /**
      * Specify custom URL for downloading android mobile app.
@@ -243,7 +243,7 @@ var interfaceConfig = {
        DEFAULT_LOCAL_DISPLAY_NAME: 'вы',
 
     // Please use defaultRemoteDisplayName from config.js
-       DEFAULT_REMOTE_DISPLAY_NAME: 'user',
+       DEFAULT_REMOTE_DISPLAY_NAME: 'пользователь',
 
     // Moved to config.js as `toolbarConfig.initialTimeout`.
     // INITIAL_TOOLBAR_TIMEOUT: 20000,
