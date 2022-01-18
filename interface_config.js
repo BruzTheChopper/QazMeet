@@ -240,10 +240,10 @@ var interfaceConfig = {
     // DISABLE_FOCUS_INDICATOR: false,
 
     // Please use defaultLocalDisplayName from config.js
-    // DEFAULT_LOCAL_DISPLAY_NAME: 'me',
+       DEFAULT_LOCAL_DISPLAY_NAME: 'вы',
 
     // Please use defaultRemoteDisplayName from config.js
-    // DEFAULT_REMOTE_DISPLAY_NAME: 'Пользователь',
+       DEFAULT_REMOTE_DISPLAY_NAME: 'user',
 
     // Moved to config.js as `toolbarConfig.initialTimeout`.
     // INITIAL_TOOLBAR_TIMEOUT: 20000,

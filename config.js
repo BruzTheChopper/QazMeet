@@ -485,16 +485,16 @@ var config = {
     // disable1On1Mode: null | false | true,
 
     // Default local name to be displayed
-    // defaultLocalDisplayName: 'me',
+       defaultLocalDisplayName: 'вы',
 
     // Default remote name to be displayed
-    // defaultRemoteDisplayName: 'Пользователь',
+       defaultRemoteDisplayName: 'пользователь',
 
     // Hides the display name from the participant thumbnail
     // hideDisplayName: false
 
     // Default language for the user interface.
-    // defaultLanguage: 'en',
+       defaultLanguage: 'ru',
 
     // Disables profile and the edit of all fields from the profile settings (display name and email)
     // disableProfile: false,
