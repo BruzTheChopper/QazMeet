@@ -835,7 +835,8 @@
         "name": "Имя",
         "seconds": "{{count}}с",
         "speakerStats": "Статистика выступлений",
-        "speakerTime": "Время выступлений"
+        "speakerTime": "Время выступлений",
+		"search": "Поиск"
     },
     "startupoverlay": {
         "policyText": " ",
