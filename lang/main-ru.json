@@ -230,8 +230,8 @@
         "authenticationRequired": "Требуется авторизация",
         "user": "Пользователь",
         "userIdentifier": "Идентификатор пользователя",
-        "userPassword": "Пароль рользователя",
-        "login": "Логин",
+        "userPassword": "Пароль пользователя",
+        "login": "Войти",
         "password": "Пароль",
         "Yes": "Да",
         "accessibilityLabel": {
